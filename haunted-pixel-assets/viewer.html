@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The heroine — a haunted room</title>
+<style>
+  :root { color-scheme:dark; font-family:Georgia,serif; background:#201923; color:#947c8d }
+  body { margin:24px auto; max-width:800px; padding:0 16px }
+  h1 { color:#ad8c58; font-size:24px; font-weight:normal }
+  p { line-height:1.5 }
+  canvas { width:768px; max-width:100%; height:auto; image-rendering:pixelated;
+    border:1px solid #726044; display:block; outline-offset:4px; background:#201923 }
+  button { background:#403346; color:#e5bb70; border:1px solid #726044; padding:8px 14px;
+    cursor:pointer; font:inherit; margin-right:8px }
+  .controls { margin-top:16px }
+  #status { color:#ad8c58; font-family:monospace }
+</style>
+<h1>The heroine</h1>
+<p>Arrow keys or WASD to walk. Release to idle. The house has made no promises.</p>
+<canvas id="game" width="384" height="288" tabindex="0" aria-label="Playable haunted room. Arrow keys or WASD move the investigator."></canvas>
+<div class="controls"><button id="reset">Return to the rug</button><button id="scale">Native size</button></div>
+<p id="status" role="status">Loading the room…</p>
+<script>
+'use strict';
+const game=document.getElementById('game'), ctx=game.getContext('2d');
+const status=document.getElementById('status');
+ctx.imageSmoothingEnabled=false;
+const background=new Image(), atlas=new Image();
+background.src='__ROOM_DATA__'; atlas.src='__ATLAS_DATA__';
+const rows={south:0,west:1,east:2,north:3};
+const keys=new Set();
+const player={x:192,y:192,direction:'south',walking:false,elapsed:0};
+// A small feet collider allows the upper body to overlap the wall naturally.
+// Furniture bounds follow the existing bookcase footprints; the rug is walkable.
+const obstacles=[{x:46,y:132,w:52,h:16},{x:286,y:132,w:52,h:16}];
+function blocked(x,y) {
+  if(x<23||x>361||y<103||y>267) return true;
+  return obstacles.some(o=>x+5>o.x&&x-5<o.x+o.w&&y>o.y&&y-4<o.y+o.h);
+}
+function update(dt) {
+  let dx=Number(keys.has('ArrowRight')||keys.has('d'))-Number(keys.has('ArrowLeft')||keys.has('a'));
+  let dy=Number(keys.has('ArrowDown')||keys.has('s'))-Number(keys.has('ArrowUp')||keys.has('w'));
+  const moving=dx!==0||dy!==0;
+  if(moving) {
+    if(dx) player.direction=dx>0?'east':'west'; else player.direction=dy>0?'south':'north';
+    const length=Math.hypot(dx,dy), distance=64*dt;
+    const oldX=player.x,oldY=player.y;
+    if(!blocked(player.x+dx/length*distance,player.y)) player.x+=dx/length*distance;
+    if(!blocked(player.x,player.y+dy/length*distance)) player.y+=dy/length*distance;
+    player.walking=player.x!==oldX||player.y!==oldY;
+  } else player.walking=false;
+  player.elapsed=player.walking?player.elapsed+dt:0;
+}
+function draw() {
+  ctx.clearRect(0,0,384,288); ctx.drawImage(background,0,0);
+  // Hard pixel contact shadow, separate from the transparent production sprite.
+  ctx.fillStyle='#30202b'; ctx.fillRect(Math.round(player.x)-6,Math.round(player.y)-1,12,3);
+  const col=player.walking?1+Math.floor(player.elapsed/.12)%4:0;
+  ctx.drawImage(atlas,col*32,rows[player.direction]*48,32,48,
+    Math.round(player.x)-16,Math.round(player.y)-44,32,48);
+  // The bookcases occlude the investigator when their feet are farther back.
+  for(const o of obstacles) if(player.y<o.y+o.h) {
+    const x=o.x-6;
+    ctx.drawImage(background,x,50,64,98,x,50,64,98);
+  }
+  status.textContent=`${player.direction} · ${player.walking?'walking':'idle'} · arrows / WASD`;
+}
+const movement=['ArrowUp','ArrowDown','ArrowLeft','ArrowRight','w','a','s','d'];
+game.addEventListener('keydown',e=>{const k=e.key.length===1?e.key.toLowerCase():e.key;
+  if(movement.includes(k)){e.preventDefault();keys.add(k);}});
+game.addEventListener('keyup',e=>{const k=e.key.length===1?e.key.toLowerCase():e.key;
+  if(movement.includes(k)){e.preventDefault();keys.delete(k);}});
+function release(){keys.clear();player.walking=false;player.elapsed=0;}
+game.addEventListener('blur',release); window.addEventListener('blur',release);
+document.addEventListener('visibilitychange',()=>{if(document.hidden)release();});
+document.getElementById('reset').onclick=()=>{Object.assign(player,{x:192,y:192,direction:'south',elapsed:0});release();game.focus();};
+document.getElementById('scale').onclick=e=>{const native=game.style.width!=='384px';game.style.width=native?'384px':'768px';e.target.textContent=native?'Double size':'Native size';game.focus();};
+let previous;
+function loop(now){const dt=previous===undefined?0:Math.min((now-previous)/1000,.05);previous=now;update(dt);draw();requestAnimationFrame(loop);}
+Promise.all([background.decode(),atlas.decode()]).then(()=>{game.focus();requestAnimationFrame(loop);})
+ .catch(()=>{status.textContent='The room could not load. Regenerate with python character.py.';});
+</script>
+</html>

@@ -1,0 +1,26 @@
+{
+  "frame_size": [
+    32,
+    48
+  ],
+  "anchor": [
+    16,
+    44
+  ],
+  "directions": [
+    "south",
+    "west",
+    "east",
+    "north"
+  ],
+  "columns": [
+    "idle",
+    "walk_0",
+    "walk_1",
+    "walk_2",
+    "walk_3"
+  ],
+  "walk_duration_ms": 120,
+  "seed": 13,
+  "layout": "rows: directions; columns: idle then four walk frames"
+}

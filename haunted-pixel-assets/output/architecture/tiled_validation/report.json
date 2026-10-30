@@ -1,0 +1,155 @@
+[
+  {
+    "map": "room_01_burgundy_damask.tmx",
+    "exact_pixel_match": true,
+    "size": [
+      320,
+      288
+    ],
+    "sha256": "17e3ab18645e67c7dc8a650e261a6b9de120fe3365512cba2c7e96965d752f50"
+  },
+  {
+    "map": "room_02_green_damask.tmx",
+    "exact_pixel_match": true,
+    "size": [
+      384,
+      320
+    ],
+    "sha256": "ccedf2df5fad375b41e7fbfde4d465f6ce312864e96c47206f78b69183530d1a"
+  },
+  {
+    "map": "room_03_blue_floral.tmx",
+    "exact_pixel_match": true,
+    "size": [
+      448,
+      352
+    ],
+    "sha256": "d0a487036bbd15b10d8c6849b925d5b08cd940b1bb6f1cc50513cffca8ee115e"
+  },
+  {
+    "map": "room_04_cream_floral.tmx",
+    "exact_pixel_match": true,
+    "size": [
+      320,
+      288
+    ],
+    "sha256": "5981998839ba47817cac3ac7387cfd82a92538c88960c7a0e85ee9795707ff1b"
+  },
+  {
+    "map": "room_05_wood_panelling.tmx",
+    "exact_pixel_match": true,
+    "size": [
+      384,
+      320
+    ],
+    "sha256": "86e355ce190e8eb868481161a11e8d6532d5d89153c88ab7cadbc50e0ee77eac"
+  },
+  {
+    "map": "room_06_half_panelling.tmx",
+    "exact_pixel_match": true,
+    "size": [
+      448,
+      352
+    ],
+    "sha256": "9d425267314f47ab6a71c1d9d448fe869ed45dd6c2eb9a5b39c6a1068d76945f"
+  },
+  {
+    "map": "room_07_plaster.tmx",
+    "exact_pixel_match": true,
+    "size": [
+      320,
+      288
+    ],
+    "sha256": "fa4e0c1fb9235cad9a6c949e5efe226c8b8f5efc65b535d3e85f09e0023beca0"
+  },
+  {
+    "map": "room_08_brick.tmx",
+    "exact_pixel_match": true,
+    "size": [
+      384,
+      320
+    ],
+    "sha256": "0753c66215c7ce8cf55451a1df0358af3086b241e9c6032e0f82ff123daaf1cc"
+  },
+  {
+    "map": "room_09_cellar_wall.tmx",
+    "exact_pixel_match": true,
+    "size": [
+      448,
+      352
+    ],
+    "sha256": "5dd517937b34121548f181359b120b06197ca4b460fa06d05bb1f38e7cd80292"
+  },
+  {
+    "map": "room_10_striped.tmx",
+    "exact_pixel_match": true,
+    "size": [
+      320,
+      288
+    ],
+    "sha256": "ecedf14357c94ad8f0a3fed57905515d9e4d9bf071a38017b95daaf33a90a0c0"
+  },
+  {
+    "map": "floor.herringbone.v0.tmx",
+    "exact_pixel_match": true,
+    "size": [
+      64,
+      64
+    ],
+    "sha256": "096b34438de98e37d17a2fccabeb30019f8cb1e3c8f6c827b3f047561ee7210d"
+  },
+  {
+    "map": "architecture.double_doorway.wood.tmx",
+    "exact_pixel_match": true,
+    "size": [
+      128,
+      96
+    ],
+    "sha256": "8a7178b8dd1fd3cd990667846d61b3c353e3de3a09c01a6e06ffa12ba3445c39"
+  },
+  {
+    "map": "architecture.stone_archway.stone.tmx",
+    "exact_pixel_match": true,
+    "size": [
+      64,
+      96
+    ],
+    "sha256": "64acc52dbae1672c33b58c09c19ee90e3bef406722c94428a98a5433ec488c57"
+  },
+  {
+    "map": "architecture.tall_window.wood.tmx",
+    "exact_pixel_match": true,
+    "size": [
+      64,
+      96
+    ],
+    "sha256": "73a0902bd62a4f9dc1f807af84af4e0e5c92d8c988d85f3e7f6564a45ed15f0e"
+  },
+  {
+    "map": "wall.green_damask.door.tmx",
+    "exact_pixel_match": true,
+    "size": [
+      64,
+      96
+    ],
+    "sha256": "f657f522b65cd1fba04b6d2fc2636f65533f48c871fd4dcead45382aa6fb5f0e"
+  },
+  {
+    "map": "existing.door.tmx",
+    "exact_pixel_match": true,
+    "size": [
+      64,
+      64
+    ],
+    "sha256": "ef4490ceb6cd5fa6ee868012ceae3f21f299cb3d728f1266121cdfe4f264cae2"
+  },
+  {
+    "map": "existing.bookcase.tmx",
+    "exact_pixel_match": true,
+    "size": [
+      64,
+      96
+    ],
+    "sha256": "45db8c53b1dd2f6055bc0769496f83c44790e0fbf84ec263b6f8df83710ddf3b"
+  }
+]

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" orientation="orthogonal" renderorder="right-down" width="12" height="35" tilewidth="32" tileheight="32" infinite="0">
+  <tileset firstgid="1" source="../large_furnishings.tsx" />
+  <objectgroup id="1" name="Full-size furniture" draworder="index">
+    <object id="1" gid="1" x="0" y="0" width="32" height="128" />
+    <object id="2" gid="129" x="96" y="0" width="32" height="96" />
+    <object id="3" gid="257" x="192" y="0" width="64" height="64" />
+    <object id="4" gid="258" x="288" y="0" width="64" height="64" />
+    <object id="5" gid="259" x="0" y="160" width="64" height="64" />
+    <object id="6" gid="260" x="96" y="160" width="64" height="64" />
+    <object id="7" gid="385" x="192" y="160" width="64" height="32" />
+    <object id="8" gid="513" x="288" y="160" width="32" height="32" />
+    <object id="9" gid="641" x="0" y="320" width="32" height="64" />
+    <object id="10" gid="769" x="96" y="320" width="96" height="96" />
+    <object id="11" gid="801" x="192" y="320" width="96" height="96" />
+    <object id="12" gid="897" x="288" y="320" width="64" height="96" />
+    <object id="13" gid="929" x="0" y="480" width="64" height="96" />
+    <object id="14" gid="1025" x="96" y="480" width="64" height="160" />
+    <object id="15" gid="1057" x="192" y="480" width="64" height="160" />
+    <object id="16" gid="1153" x="288" y="480" width="96" height="96" />
+    <object id="17" gid="1185" x="0" y="640" width="96" height="96" />
+    <object id="18" gid="1281" x="96" y="640" width="64" height="128" />
+    <object id="19" gid="1282" x="192" y="640" width="64" height="128" />
+    <object id="20" gid="1283" x="288" y="640" width="64" height="128" />
+    <object id="21" gid="1284" x="0" y="800" width="64" height="128" />
+    <object id="22" gid="1285" x="96" y="800" width="64" height="128" />
+    <object id="23" gid="1286" x="192" y="800" width="64" height="128" />
+    <object id="24" gid="1409" x="288" y="800" width="96" height="128" />
+    <object id="25" gid="1441" x="0" y="960" width="96" height="128" />
+  </objectgroup>
+</map>

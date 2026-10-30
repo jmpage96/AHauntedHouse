@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" orientation="orthogonal" renderorder="right-down" width="2" height="3" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
+  <tileset firstgid="1" source="../floors.tsx" />
+  <tileset firstgid="321" source="../walls.tsx" />
+  <tileset firstgid="961" source="../architecture.tsx" />
+  <layer id="1" name="Assembly" width="2" height="3">
+    <data encoding="csv">
+1989,1990,
+2005,2006,
+2021,2022
+</data>
+  </layer>
+</map>

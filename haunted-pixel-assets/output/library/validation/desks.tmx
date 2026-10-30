@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" orientation="orthogonal" renderorder="right-down" width="16" height="44" tilewidth="32" tileheight="32" infinite="0">
+  <tileset firstgid="1" source="../desks.tsx" />
+  <objectgroup id="1" name="Full-size furniture" draworder="index">
+    <object id="1" gid="1" x="0" y="0" width="96" height="64" />
+    <object id="2" gid="9" x="128" y="0" width="96" height="64" />
+    <object id="3" gid="17" x="256" y="0" width="64" height="64" />
+    <object id="4" gid="25" x="384" y="0" width="64" height="64" />
+    <object id="5" gid="33" x="0" y="128" width="96" height="64" />
+    <object id="6" gid="41" x="128" y="128" width="96" height="64" />
+    <object id="7" gid="49" x="256" y="128" width="64" height="64" />
+    <object id="8" gid="57" x="384" y="128" width="64" height="64" />
+    <object id="9" gid="129" x="0" y="256" width="96" height="96" />
+    <object id="10" gid="161" x="128" y="256" width="96" height="96" />
+    <object id="11" gid="257" x="256" y="256" width="64" height="128" />
+    <object id="12" gid="289" x="384" y="256" width="64" height="128" />
+    <object id="13" gid="385" x="0" y="384" width="64" height="64" />
+    <object id="14" gid="393" x="128" y="384" width="64" height="64" />
+    <object id="15" gid="401" x="256" y="384" width="64" height="64" />
+    <object id="16" gid="409" x="384" y="384" width="64" height="64" />
+    <object id="17" gid="417" x="0" y="512" width="64" height="64" />
+    <object id="18" gid="425" x="128" y="512" width="64" height="64" />
+    <object id="19" gid="433" x="256" y="512" width="64" height="64" />
+    <object id="20" gid="441" x="384" y="512" width="64" height="64" />
+    <object id="21" gid="513" x="0" y="640" width="128" height="64" />
+    <object id="22" gid="521" x="128" y="640" width="128" height="64" />
+    <object id="23" gid="529" x="256" y="640" width="64" height="96" />
+    <object id="24" gid="537" x="384" y="640" width="64" height="96" />
+    <object id="25" gid="545" x="0" y="768" width="128" height="64" />
+    <object id="26" gid="553" x="128" y="768" width="128" height="64" />
+    <object id="27" gid="561" x="256" y="768" width="64" height="96" />
+    <object id="28" gid="569" x="384" y="768" width="64" height="96" />
+    <object id="29" gid="641" x="0" y="896" width="64" height="64" />
+    <object id="30" gid="673" x="128" y="896" width="64" height="64" />
+    <object id="31" gid="769" x="256" y="896" width="32" height="64" />
+    <object id="32" gid="801" x="384" y="896" width="32" height="64" />
+    <object id="33" gid="897" x="0" y="1024" width="32" height="64" />
+    <object id="34" gid="929" x="128" y="1024" width="32" height="64" />
+    <object id="35" gid="1025" x="256" y="1024" width="64" height="64" />
+    <object id="36" gid="1057" x="384" y="1024" width="64" height="64" />
+    <object id="37" gid="1153" x="0" y="1152" width="32" height="64" />
+    <object id="38" gid="1185" x="128" y="1152" width="32" height="64" />
+    <object id="39" gid="1281" x="256" y="1152" width="32" height="64" />
+    <object id="40" gid="1313" x="384" y="1152" width="32" height="64" />
+    <object id="41" gid="1409" x="0" y="1280" width="96" height="64" />
+    <object id="42" gid="1441" x="128" y="1280" width="96" height="64" />
+  </objectgroup>
+</map>

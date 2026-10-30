@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" orientation="orthogonal" renderorder="right-down" width="12" height="18" tilewidth="32" tileheight="32" infinite="0">
+  <tileset firstgid="1" source="../mysteries.tsx" />
+  <objectgroup id="1" name="Full-size furniture" draworder="index">
+    <object id="1" gid="1" x="0" y="0" width="64" height="96" />
+    <object id="2" gid="2" x="96" y="0" width="64" height="96" />
+    <object id="3" gid="33" x="192" y="0" width="64" height="96" />
+    <object id="4" gid="34" x="288" y="0" width="64" height="96" />
+    <object id="5" gid="129" x="0" y="96" width="64" height="96" />
+    <object id="6" gid="130" x="96" y="96" width="64" height="96" />
+    <object id="7" gid="161" x="192" y="96" width="64" height="96" />
+    <object id="8" gid="162" x="288" y="96" width="64" height="96" />
+    <object id="9" gid="257" x="0" y="192" width="32" height="32" />
+    <object id="10" gid="258" x="96" y="192" width="32" height="32" />
+    <object id="11" gid="385" x="192" y="192" width="32" height="32" />
+    <object id="12" gid="386" x="288" y="192" width="32" height="32" />
+    <object id="13" gid="513" x="0" y="288" width="32" height="32" />
+    <object id="14" gid="514" x="96" y="288" width="32" height="32" />
+    <object id="15" gid="641" x="192" y="288" width="32" height="32" />
+    <object id="16" gid="642" x="288" y="288" width="32" height="32" />
+    <object id="17" gid="769" x="0" y="384" width="96" height="64" />
+    <object id="18" gid="770" x="96" y="384" width="96" height="64" />
+    <object id="19" gid="801" x="192" y="384" width="96" height="64" />
+    <object id="20" gid="802" x="288" y="384" width="96" height="64" />
+    <object id="21" gid="897" x="0" y="480" width="64" height="96" />
+    <object id="22" gid="929" x="96" y="480" width="64" height="96" />
+  </objectgroup>
+</map>

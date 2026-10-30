@@ -1,0 +1,79 @@
+{
+  "checks": [
+    {
+      "map": "library.tmx",
+      "pixel_match": true,
+      "dimensions": [
+        832,
+        704
+      ]
+    },
+    {
+      "map": "bookshelves.tmx",
+      "pixel_match": true,
+      "dimensions": [
+        512,
+        1920
+      ]
+    },
+    {
+      "map": "desks.tmx",
+      "pixel_match": true,
+      "dimensions": [
+        512,
+        1408
+      ]
+    },
+    {
+      "map": "seating.tmx",
+      "pixel_match": true,
+      "dimensions": [
+        512,
+        1536
+      ]
+    },
+    {
+      "map": "lighting.tmx",
+      "pixel_match": true,
+      "dimensions": [
+        384,
+        960
+      ]
+    },
+    {
+      "map": "clutter.tmx",
+      "pixel_match": true,
+      "dimensions": [
+        256,
+        160
+      ]
+    },
+    {
+      "map": "decorations.tmx",
+      "pixel_match": true,
+      "dimensions": [
+        640,
+        768
+      ]
+    },
+    {
+      "map": "large_furnishings.tmx",
+      "pixel_match": true,
+      "dimensions": [
+        384,
+        1120
+      ]
+    },
+    {
+      "map": "mysteries.tmx",
+      "pixel_match": true,
+      "dimensions": [
+        384,
+        576
+      ]
+    }
+  ],
+  "sprite_count": 302,
+  "base_types": 112,
+  "all_pixels_match": true
+}

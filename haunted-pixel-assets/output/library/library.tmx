@@ -1,0 +1,662 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" orientation="orthogonal" renderorder="right-down" width="26" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="81">
+  <tileset firstgid="1" source="architecture/floors.tsx" />
+  <tileset firstgid="321" source="architecture/walls.tsx" />
+  <tileset firstgid="961" source="architecture/architecture.tsx" />
+  <tileset firstgid="4097" source="bookshelves.tsx" />
+  <tileset firstgid="6145" source="desks.tsx" />
+  <tileset firstgid="7681" source="seating.tsx" />
+  <tileset firstgid="8961" source="lighting.tsx" />
+  <tileset firstgid="10241" source="clutter.tsx" />
+  <tileset firstgid="13313" source="decorations.tsx" />
+  <tileset firstgid="15873" source="large_furnishings.tsx" />
+  <tileset firstgid="17409" source="mysteries.tsx" />
+  <layer id="1" name="Floors" width="26" height="22">
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,37,38,33,34,33,34,33,34,39,40,39,40,33,34,33,34,35,36,33,34,33,34,33,34,0,
+0,53,54,49,50,49,50,49,50,55,56,55,56,49,50,49,50,51,52,49,50,49,50,49,50,0,
+0,33,34,35,36,33,34,41,42,37,38,37,38,33,34,33,34,33,34,35,36,33,34,33,34,0,
+0,49,50,51,52,49,50,57,58,53,54,53,54,49,50,49,50,49,50,51,52,49,50,49,50,0,
+0,33,34,41,42,33,34,33,34,33,34,33,34,33,34,33,34,33,34,33,34,33,34,33,34,0,
+0,49,50,57,58,49,50,49,50,49,50,49,50,49,50,49,50,49,50,49,50,49,50,49,50,0,
+0,33,34,41,42,33,34,33,34,33,34,33,34,33,34,35,36,33,34,33,34,33,34,37,38,0,
+0,49,50,57,58,49,50,49,50,49,50,49,50,49,50,51,52,49,50,49,50,49,50,53,54,0,
+0,33,34,33,34,41,42,37,38,33,34,39,40,33,34,39,40,33,34,33,34,33,34,33,34,0,
+0,49,50,49,50,57,58,53,54,49,50,55,56,49,50,55,56,49,50,49,50,49,50,49,50,0,
+0,41,42,35,36,37,38,33,34,33,34,33,34,33,34,33,34,33,34,35,36,33,34,33,34,0,
+0,57,58,51,52,53,54,49,50,49,50,49,50,49,50,49,50,49,50,51,52,49,50,49,50,0,
+0,33,34,33,34,33,34,37,38,33,34,33,34,33,34,41,42,33,34,35,36,35,36,33,34,0,
+0,49,50,49,50,49,50,53,54,49,50,49,50,49,50,57,58,49,50,51,52,51,52,49,50,0,
+0,33,34,39,40,41,42,33,34,37,38,35,36,39,40,35,36,37,38,41,42,41,42,33,34,0,
+0,49,50,55,56,57,58,49,50,53,54,51,52,55,56,51,52,53,54,57,58,57,58,49,50,0,
+0,35,36,37,38,37,38,37,38,33,34,33,34,33,34,33,34,41,42,33,34,33,34,35,36,0,
+0,51,52,53,54,53,54,53,54,49,50,49,50,49,50,49,50,57,58,49,50,49,50,51,52,0,
+0,33,34,33,34,37,38,33,34,33,34,39,40,33,34,37,38,33,34,33,34,33,34,33,34,0,
+0,49,50,49,50,53,54,49,50,49,50,55,56,49,50,53,54,49,50,49,50,49,50,49,50,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="2" name="Walls" width="26" height="22">
+    <data encoding="csv">
+403,385,385,385,385,385,385,385,395,396,385,385,385,385,385,385,385,395,396,385,385,397,398,385,385,404,
+401,386,386,386,386,386,386,386,411,412,386,386,386,386,386,386,386,411,412,386,386,413,414,386,386,402,
+401,387,387,387,387,387,387,387,427,428,387,387,387,387,387,387,387,427,428,387,387,429,430,387,387,402,
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,402,
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,402,
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,402,
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,402,
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,402,
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,402,
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,402,
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,402,
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,402,
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,402,
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,402,
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,402,
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,402,
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,402,
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,402,
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,402,
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,402,
+401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,402,
+405,400,400,400,400,400,400,400,400,400,400,400,400,400,400,400,400,400,400,400,400,400,400,400,400,406
+</data>
+  </layer>
+  <layer id="3" name="Architecture" width="26" height="22">
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1985,1986,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2001,2002,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <objectgroup id="4" name="Floor details" draworder="index">
+    <object id="1" name="ornate_rug" gid="15745" x="392" y="152" width="160" height="128">
+      <properties>
+        <property name="asset_id" type="string" value="library.decorations.ornate_rug.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Floor details" />
+      </properties>
+    </object>
+    <object id="2" name="ornate_rug" gid="15777" x="168" y="432" width="160" height="128">
+      <properties>
+        <property name="asset_id" type="string" value="library.decorations.ornate_rug.v1.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Floor details" />
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="5" name="Wall decorations" draworder="index">
+    <object id="3" name="framed_portrait" gid="13953" x="416" y="8" width="64" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.decorations.framed_portrait.v0.south.normal" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Wall decorations" />
+      </properties>
+    </object>
+    <object id="4" name="wall_sconce" gid="9729" x="392" y="16" width="32" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.lighting.wall_sconce.v0.south.lit_0" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Wall decorations" />
+      </properties>
+    </object>
+    <object id="5" name="wall_sconce" gid="9729" x="640" y="16" width="32" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.lighting.wall_sconce.v0.south.lit_0" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Wall decorations" />
+      </properties>
+    </object>
+    <object id="6" name="velvet_curtain" gid="15617" x="544" y="0" width="64" height="128">
+      <properties>
+        <property name="asset_id" type="string" value="library.decorations.velvet_curtain.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Wall decorations" />
+      </properties>
+    </object>
+    <object id="7" name="certificate" gid="15105" x="768" y="8" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.decorations.certificate.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Wall decorations" />
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="6" name="Furniture" draworder="index">
+    <object id="8" name="grandfather_clock" gid="17153" x="488" y="16" width="64" height="128">
+      <properties>
+        <property name="asset_id" type="string" value="library.large_furnishings.grandfather_clock.v0.south.swing_0" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="9" name="narrow_bookcase" gid="4097" x="40" y="48" width="32" height="96">
+      <properties>
+        <property name="asset_id" type="string" value="library.bookshelves.narrow_bookcase.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="10" name="crowned_bookcase" gid="5121" x="144" y="16" width="96" height="128">
+      <properties>
+        <property name="asset_id" type="string" value="library.bookshelves.crowned_bookcase.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="11" name="library_mantel" gid="16129" x="416" y="80" width="64" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.large_furnishings.library_mantel.v0.south.fire_0" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="12" name="overstuffed_bookcase" gid="5537" x="608" y="48" width="64" height="96">
+      <properties>
+        <property name="asset_id" type="string" value="library.bookshelves.overstuffed_bookcase.v1.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="13" name="glass_bookcase" gid="4865" x="736" y="48" width="64" height="96">
+      <properties>
+        <property name="asset_id" type="string" value="library.bookshelves.glass_bookcase.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="14" name="double_bookcase" gid="4225" x="80" y="48" width="64" height="96">
+      <properties>
+        <property name="asset_id" type="string" value="library.bookshelves.double_bookcase.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="15" name="extra_tall_bookcase" gid="4513" x="328" y="8" width="64" height="160">
+      <properties>
+        <property name="asset_id" type="string" value="library.bookshelves.extra_tall_bookcase.v1.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="16" name="firewood_basket" gid="16385" x="448" y="140" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.large_furnishings.firewood_basket.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="17" name="fireplace_tools" gid="16513" x="480" y="112" width="32" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.large_furnishings.fireplace_tools.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="18" name="marble_bust" gid="13569" x="656" y="168" width="32" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.decorations.marble_bust.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="19" name="rolling_ladder" gid="15873" x="216" y="104" width="32" height="128">
+      <properties>
+        <property name="asset_id" type="string" value="library.large_furnishings.rolling_ladder.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="20" name="ornate_side_table" gid="6913" x="472" y="184" width="32" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.desks.ornate_side_table.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="21" name="burgundy_armchair" gid="7953" x="392" y="184" width="64" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.seating.burgundy_armchair.v0.east.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="22" name="leather_wingback" gid="7705" x="520" y="184" width="64" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.seating.leather_wingback.v0.west.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="23" name="footstool" gid="8577" x="448" y="244" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.seating.footstool.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="24" name="corner_bookcase" gid="4737" x="32" y="192" width="96" height="96">
+      <properties>
+        <property name="asset_id" type="string" value="library.bookshelves.corner_bookcase.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="25" name="green_armchair" gid="7825" x="112" y="240" width="64" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.seating.green_armchair.v0.east.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="26" name="document_stand" gid="7425" x="296" y="244" width="32" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.desks.document_stand.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="27" name="grand_desk" gid="6145" x="184" y="248" width="96" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.desks.grand_desk.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="28" name="reading_chair" gid="8065" x="472" y="256" width="32" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.seating.reading_chair.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="29" name="reading_chair" gid="8065" x="536" y="264" width="32" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.seating.reading_chair.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="30" name="terrestrial_globe" gid="13313" x="360" y="264" width="32" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.decorations.terrestrial_globe.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="31" name="partial_bookcase" gid="5441" x="736" y="240" width="64" height="96">
+      <properties>
+        <property name="asset_id" type="string" value="library.bookshelves.partial_bookcase.v2.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="32" name="desk_chair" gid="8201" x="208" y="296" width="32" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.seating.desk_chair.v0.north.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="33" name="reading_table" gid="6657" x="456" y="304" width="128" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.desks.reading_table.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="34" name="display_cabinet" gid="16801" x="656" y="272" width="64" height="96">
+      <properties>
+        <property name="asset_id" type="string" value="library.large_furnishings.display_cabinet.v1.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="35" name="reading_chair" gid="8073" x="548" y="352" width="32" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.seating.reading_chair.v0.north.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="36" name="reading_chair" gid="8073" x="480" y="360" width="32" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.seating.reading_chair.v0.north.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="37" name="catalogue_cabinet" gid="17025" x="48" y="336" width="96" height="96">
+      <properties>
+        <property name="asset_id" type="string" value="library.large_furnishings.catalogue_cabinet.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="38" name="book_display" gid="6017" x="192" y="368" width="64" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.bookshelves.book_display.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="39" name="revolving_bookcase" gid="5921" x="328" y="376" width="64" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.bookshelves.revolving_bookcase.v1.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="40" name="lectern" gid="7297" x="608" y="376" width="32" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.desks.lectern.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="41" name="tufted_sofa" gid="8321" x="176" y="440" width="128" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.seating.tufted_sofa.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="42" name="standing_lamp" gid="9857" x="144" y="424" width="32" height="96">
+      <properties>
+        <property name="asset_id" type="string" value="library.lighting.standing_lamp.v0.south.lit" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="43" name="footstool" gid="8609" x="296" y="500" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.seating.footstool.v1.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="44" name="secret_desk" gid="18178" x="360" y="512" width="96" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.mysteries.secret_desk.v0.south.open" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="45" name="curiosity_cabinet" gid="16897" x="736" y="416" width="64" height="160">
+      <properties>
+        <property name="asset_id" type="string" value="library.large_furnishings.curiosity_cabinet.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="46" name="tea_table" gid="7169" x="208" y="520" width="64" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.desks.tea_table.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="47" name="chaise_longue" gid="8481" x="520" y="520" width="96" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.seating.chaise_longue.v1.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="48" name="wooden_ladder" gid="16001" x="776" y="496" width="32" height="96">
+      <properties>
+        <property name="asset_id" type="string" value="library.large_furnishings.wooden_ladder.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="49" name="pedestal_table" gid="7041" x="624" y="528" width="32" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.desks.pedestal_table.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="50" name="desk_chair" gid="8233" x="392" y="572" width="32" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.seating.desk_chair.v1.north.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="51" name="telescope" gid="14721" x="304" y="592" width="64" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.decorations.telescope.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="52" name="bench" gid="8833" x="440" y="592" width="96" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.seating.bench.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="53" name="built_in_shelving" gid="4993" x="32" y="528" width="128" height="128">
+      <properties>
+        <property name="asset_id" type="string" value="library.bookshelves.built_in_shelving.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="54" name="mechanism_bookcase" gid="17409" x="640" y="568" width="64" height="96">
+      <properties>
+        <property name="asset_id" type="string" value="library.mysteries.mechanism_bookcase.v0.south.closed" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+    <object id="55" name="half_bookcase" gid="4609" x="704" y="608" width="64" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.bookshelves.half_bookcase.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Furniture" />
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="7" name="Floor clutter" draworder="index">
+    <object id="56" name="scattered_books" gid="10785" x="280" y="336" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.clutter.scattered_books.v1.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Floor clutter" />
+      </properties>
+    </object>
+    <object id="57" name="tall_books" gid="10625" x="304" y="354" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.clutter.tall_books.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Floor clutter" />
+      </properties>
+    </object>
+    <object id="58" name="loose_papers" gid="11521" x="280" y="376" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.clutter.loose_papers.v0.south.default" />
+        <property name="parent_surface" type="string" value="" />
+        <property name="authored_layer" type="string" value="Floor clutter" />
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="8" name="Tabletop clutter" draworder="index">
+    <object id="59" name="banker_lamp" gid="8961" x="240" y="246" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.lighting.banker_lamp.v0.south.lit" />
+        <property name="parent_surface" type="string" value="grand_desk" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="60" name="manuscript" gid="11649" x="204" y="252" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.clutter.manuscript.v0.south.default" />
+        <property name="parent_surface" type="string" value="grand_desk" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="61" name="inkpot" gid="11777" x="176" y="248" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.clutter.inkpot.v0.south.default" />
+        <property name="parent_surface" type="string" value="grand_desk" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="62" name="quill" gid="11905" x="188" y="252" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.clutter.quill.v0.south.default" />
+        <property name="parent_surface" type="string" value="grand_desk" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="63" name="tea_cup" gid="12929" x="244" y="252" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.clutter.tea_cup.v0.south.default" />
+        <property name="parent_surface" type="string" value="grand_desk" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="64" name="wax_seal" gid="12545" x="226" y="252" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.clutter.wax_seal.v0.south.default" />
+        <property name="parent_surface" type="string" value="grand_desk" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="65" name="open_book" gid="10369" x="476" y="312" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.clutter.open_book.v0.south.default" />
+        <property name="parent_surface" type="string" value="reading_table" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="66" name="atlas" gid="11009" x="516" y="310" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.clutter.atlas.v0.south.default" />
+        <property name="parent_surface" type="string" value="reading_table" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="67" name="three_candelabrum" gid="9473" x="548" y="278" width="32" height="64">
+      <properties>
+        <property name="asset_id" type="string" value="library.lighting.three_candelabrum.v0.south.lit_0" />
+        <property name="parent_surface" type="string" value="reading_table" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="68" name="magnifying_glass" gid="12033" x="500" y="326" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.clutter.magnifying_glass.v0.south.default" />
+        <property name="parent_surface" type="string" value="reading_table" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="69" name="spectacles" gid="12417" x="464" y="329" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.clutter.spectacles.v0.south.default" />
+        <property name="parent_surface" type="string" value="reading_table" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="70" name="two_books" gid="10561" x="536" y="324" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.clutter.two_books.v2.south.default" />
+        <property name="parent_surface" type="string" value="reading_table" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="71" name="oil_lamp" gid="9217" x="472" y="181" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.lighting.oil_lamp.v0.south.lit_0" />
+        <property name="parent_surface" type="string" value="ornate_side_table" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="72" name="teapot" gid="13057" x="208" y="520" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.clutter.teapot.v0.south.default" />
+        <property name="parent_surface" type="string" value="tea_table" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="73" name="tea_cup" gid="12929" x="236" y="528" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.clutter.tea_cup.v0.south.default" />
+        <property name="parent_surface" type="string" value="tea_table" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="74" name="closed_book" gid="10273" x="224" y="512" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.clutter.closed_book.v1.south.default" />
+        <property name="parent_surface" type="string" value="tea_table" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="75" name="specimen_dome" gid="14465" x="624" y="525" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.decorations.specimen_dome.v0.south.default" />
+        <property name="parent_surface" type="string" value="pedestal_table" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="76" name="potted_fern" gid="15489" x="664" y="552" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.decorations.potted_fern.v0.south.default" />
+        <property name="parent_surface" type="string" value="mechanism_bookcase" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="77" name="puzzle_box" gid="17922" x="368" y="515" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.mysteries.puzzle_box.v0.south.open" />
+        <property name="parent_surface" type="string" value="secret_desk" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="78" name="marked_book" gid="17666" x="400" y="516" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.mysteries.marked_book.v0.south.open" />
+        <property name="parent_surface" type="string" value="secret_desk" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="79" name="tied_letters" gid="11393" x="70" y="358" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.clutter.tied_letters.v0.south.default" />
+        <property name="parent_surface" type="string" value="catalogue_cabinet" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+    <object id="80" name="ornamental_clock" gid="14977" x="98" y="348" width="32" height="32">
+      <properties>
+        <property name="asset_id" type="string" value="library.decorations.ornamental_clock.v0.south.default" />
+        <property name="parent_surface" type="string" value="catalogue_cabinet" />
+        <property name="authored_layer" type="string" value="Tabletop clutter" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

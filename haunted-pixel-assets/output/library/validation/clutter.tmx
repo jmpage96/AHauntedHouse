@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" orientation="orthogonal" renderorder="right-down" width="8" height="5" tilewidth="32" tileheight="32" infinite="0">
+  <tileset firstgid="1" source="../clutter.tsx" />
+  <objectgroup id="1" name="Full-size furniture" draworder="index">
+    <object id="1" gid="1" x="0" y="0" width="32" height="32" />
+    <object id="2" gid="33" x="32" y="0" width="32" height="32" />
+    <object id="3" gid="65" x="64" y="0" width="32" height="32" />
+    <object id="4" gid="129" x="96" y="0" width="32" height="32" />
+    <object id="5" gid="257" x="128" y="0" width="32" height="32" />
+    <object id="6" gid="289" x="160" y="0" width="32" height="32" />
+    <object id="7" gid="321" x="192" y="0" width="32" height="32" />
+    <object id="8" gid="385" x="224" y="0" width="32" height="32" />
+    <object id="9" gid="417" x="0" y="32" width="32" height="32" />
+    <object id="10" gid="449" x="32" y="32" width="32" height="32" />
+    <object id="11" gid="513" x="64" y="32" width="32" height="32" />
+    <object id="12" gid="545" x="96" y="32" width="32" height="32" />
+    <object id="13" gid="577" x="128" y="32" width="32" height="32" />
+    <object id="14" gid="641" x="160" y="32" width="32" height="32" />
+    <object id="15" gid="673" x="192" y="32" width="32" height="32" />
+    <object id="16" gid="705" x="224" y="32" width="32" height="32" />
+    <object id="17" gid="769" x="0" y="64" width="32" height="32" />
+    <object id="18" gid="801" x="32" y="64" width="32" height="32" />
+    <object id="19" gid="833" x="64" y="64" width="32" height="32" />
+    <object id="20" gid="897" x="96" y="64" width="32" height="32" />
+    <object id="21" gid="929" x="128" y="64" width="32" height="32" />
+    <object id="22" gid="961" x="160" y="64" width="32" height="32" />
+    <object id="23" gid="1025" x="192" y="64" width="32" height="32" />
+    <object id="24" gid="1153" x="224" y="64" width="32" height="32" />
+    <object id="25" gid="1281" x="0" y="96" width="32" height="32" />
+    <object id="26" gid="1409" x="32" y="96" width="32" height="32" />
+    <object id="27" gid="1537" x="64" y="96" width="32" height="32" />
+    <object id="28" gid="1665" x="96" y="96" width="32" height="32" />
+    <object id="29" gid="1793" x="128" y="96" width="32" height="32" />
+    <object id="30" gid="1921" x="160" y="96" width="32" height="32" />
+    <object id="31" gid="2049" x="192" y="96" width="32" height="32" />
+    <object id="32" gid="2177" x="224" y="96" width="32" height="32" />
+    <object id="33" gid="2305" x="0" y="128" width="32" height="32" />
+    <object id="34" gid="2433" x="32" y="128" width="32" height="32" />
+    <object id="35" gid="2561" x="64" y="128" width="32" height="32" />
+    <object id="36" gid="2593" x="96" y="128" width="32" height="32" />
+    <object id="37" gid="2625" x="128" y="128" width="32" height="32" />
+    <object id="38" gid="2689" x="160" y="128" width="32" height="32" />
+    <object id="39" gid="2817" x="192" y="128" width="32" height="32" />
+    <object id="40" gid="2945" x="224" y="128" width="32" height="32" />
+  </objectgroup>
+</map>

@@ -1,0 +1,120 @@
+{
+  "seed": 13,
+  "sheet_layout": "horizontal, no padding",
+  "assets": {
+    "clock": {
+      "size": [
+        48,
+        112
+      ],
+      "states": [
+        "swing_0",
+        "swing_1",
+        "swing_2",
+        "swing_3",
+        "swing_4",
+        "swing_5"
+      ],
+      "durations_ms": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "motion_box": [
+        14,
+        49,
+        34,
+        93
+      ],
+      "demo_position": [
+        104,
+        16
+      ]
+    },
+    "fireplace": {
+      "size": [
+        64,
+        64
+      ],
+      "states": [
+        "fire_0",
+        "fire_1",
+        "fire_2",
+        "fire_3"
+      ],
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "motion_box": [
+        18,
+        30,
+        46,
+        54
+      ],
+      "demo_position": [
+        220,
+        66
+      ]
+    },
+    "portrait": {
+      "size": [
+        40,
+        48
+      ],
+      "states": [
+        "normal",
+        "following"
+      ],
+      "durations_ms": [
+        2200,
+        1000
+      ],
+      "motion_box": [
+        16,
+        21,
+        25,
+        22
+      ],
+      "demo_position": [
+        232,
+        16
+      ]
+    },
+    "candelabra": {
+      "size": [
+        32,
+        48
+      ],
+      "states": [
+        "lit_0",
+        "lit_1",
+        "lit_2",
+        "lit_3",
+        "extinguished"
+      ],
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        1200
+      ],
+      "motion_box": [
+        2,
+        0,
+        30,
+        13
+      ],
+      "demo_position": [
+        262,
+        137
+      ]
+    }
+  }
+}
